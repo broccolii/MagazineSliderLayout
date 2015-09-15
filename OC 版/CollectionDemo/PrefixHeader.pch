@@ -1,0 +1,30 @@
+//
+// PrefixHeader.pch
+// LiangCang
+//
+// Created by ZhJian on 15/6/3.
+// Copyright (c) 2015年 ZhJian. All rights reserved.
+//
+
+#ifndef LiangCang_PrefixHeader_pch
+#define LiangCang_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define WIDTH [UIScreen mainScreen].bounds.size.width
+#define HEIGHT [UIScreen mainScreen].bounds.size.height
+#define CELL_HEIGHT 100 //普通高度
+#define CELL_WIDTH [UIScreen mainScreen].bounds.size.width
+#define CELL_CURRHEIGHT 240 //置顶高度
+#define TITLE_HEIGHT 40
+#define IMAGEVIEW_ORIGIN_Y -30
+#define IMAGEVIEW_MOVE_DISTANCE 160
+#define NAVIGATOR_LABEL_HEIGHT 25
+#define NAVIGATOR_LABELCONTAINER_HEIGHT 125
+#define SC_IMAGEVIEW_HEIGHT 360
+#define DRAG_INTERVAL 170.0f
+#define HEADER_HEIGHT 0
+#define RECT_RANGE 1000.0f
+#define CustomGray [UIColor grayColor]
+#endif
